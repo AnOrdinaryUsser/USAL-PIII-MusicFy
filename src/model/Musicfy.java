@@ -59,7 +59,7 @@ public class Musicfy implements Serializable {
         if (loadBinFile(nameOfBinAlbum) == true) {
             System.out.println("\nSe han importado todos los datos del archivo " + nameOfBinAlbum);
         } else {
-            loadArtistsTxtFile();
+            loadAlbumTxtFile();
             System.out.println("\nSe han importado todos los albumes del archivo " + nameOfArtistsFile);
         }
         if (loadBinFile(nameOfBinArtista) == true) {
